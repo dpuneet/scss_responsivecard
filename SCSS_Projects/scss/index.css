@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,700,800&display=swap");
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 5rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(14rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.card {
+  margin: 10px 5px;
+  background-color: white;
+  -webkit-box-shadow: 2px 8px 2px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 8px 2px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .card-inner {
+  padding: 10px;
+}
+
+.card .card-inner strong {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=index.css.map */
